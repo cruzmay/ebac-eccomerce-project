@@ -1,0 +1,36 @@
+.filters {
+    grid-area: aside;
+    padding: $spacing-medium $spacing-small ;
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-medium;
+    width: 250px;
+    button {
+        align-self: flex-start;
+        background-color: rgba(255, 255, 255, 0.739);
+        border: none;
+        transform: rotate(0deg);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        padding: $spacing-tiny;
+        &:hover {
+            background-color: #e1f8ff;
+        }
+        span {
+            font-size: 2em;
+        }
+    }
+    ul {
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat( auto-fill, minmax(100px, 1fr) );
+        gap: $spacing-tiny;
+        li {
+            display: flex;
+            gap: $spacing-tiny;
+        }
+    }
+}
