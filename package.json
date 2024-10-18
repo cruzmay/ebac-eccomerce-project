@@ -1,0 +1,15 @@
+{
+  "name": "proyecto-ebac-eccomerce",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass assets/styles/index.scss assets/styles/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.76.0"
+  }
+}

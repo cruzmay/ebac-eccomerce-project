@@ -1,0 +1,36 @@
+/*colors*/
+$primary-color: rgb(61, 91, 182);
+$hover-color: rgba(159, 187, 238);
+$secondary-color: #222d66;
+$bg-color: #f6f3f3;
+$ligth-color: #fff;
+$text-color: #474747;
+$border-color: #d3d3d3;
+$accent-color: #ff0084;
+$danger-color: #ff0000;
+$warning-color: #ffd500;
+/* spacing*/
+$spacing-tiny: 8px;
+$spacing-small: 16px;
+$spacing-medium: 32px;
+$spacing-large: 64px;
+/*font*/
+$font-roboto: "Roboto", sans-serif;
+$font-size-paragraph: 1em;
+$letter-spacing: 2px;
+$font-weigth-light: 300;
+$font-weight-normal: 400;
+$font-weigth-medium: 500;
+$font-weigth-bold: 700;
+/* areas spacings */
+$nav-height: 70px;
+$footer-height: 200px;
+$aside-width: 250px;
+/* micelanious */
+$border-radius: 5px;
+$link-text-blur: 0px 1px 19px rgb(255, 255, 255);
+$box-shadow-small: 11px 7px 9px -16px rgba(0, 0, 0, 0.58);
+$box-shadow: -1px 9px 40px -22px rgba(0, 0, 0, 0.58);
+/*break points*/
+$tablet-breakpoint: 963px;
+$mobile-breakpoint: 763px;
