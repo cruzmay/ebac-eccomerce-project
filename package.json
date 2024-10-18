@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "sass assets/styles/index.scss assets/styles/styles.css --watch"
+    "start": "sass public/assets/styles/index.scss public/assets/styles/styles.css --watch"
   },
   "keywords": [],
   "author": "",

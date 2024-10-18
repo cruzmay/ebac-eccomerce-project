@@ -7,7 +7,7 @@ class Pokemons {
     this.data = this.getData(`${this.pokeApi}pokemon?limit=100&offset=20"`)
       .then((data) => this.getPokemons(data))
       .then((data) => eccomerce(data));
-    // this.pokemons = this.getPokemons(this.data)
+    this.pokemons = this.getPokemons(this.data)
   }
   async getData(url) {
     const response = await fetch(url);

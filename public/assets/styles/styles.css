@@ -124,6 +124,14 @@ body {
   gap: 8px;
 }
 
+@keyframes loading {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 .products {
   grid-area: section;
   background-color: #f6f3f3;
@@ -136,6 +144,27 @@ body {
   height: calc(100vh - 120px);
   gap: 32px;
   padding: 32px;
+}
+.products__loading {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.products__loading img {
+  animation: loading 3s infinite;
+  width: 50px;
+  height: 50px;
+}
+.products__loading span {
+  font-weight: 700;
 }
 
 .footer {
